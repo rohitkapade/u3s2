@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bucket page</title>
+    <style>
+        #bucket {
+            margin-top: 40px;
+            height: auto;
+            display: grid;
+            width: 100%;
+            grid-template-columns: repeat(4,1fr);
+            border: 1 px solid black;
+            margin-left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h3 id="total_amount"></h3>
+    <div id="bucket"></div>
+    <button id="confirm_checkout" onclick="CheckoutPage()">Checkout</button>
+    
+</body>
+</html>
+<script src="bucket.js"></script>
